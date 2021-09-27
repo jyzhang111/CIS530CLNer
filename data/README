@@ -1,0 +1,14 @@
+Train files: 
+eng.train
+eng.testa 
+eng.testb
+ned.train (used only in extension-2 and final integrated model)
+ned.testa (used only in extension-2 and final integrated model)
+ned.testb (used only in extension-2 and final integrated model)
+
+Dev/validation file:
+esp.testa
+
+Test file:
+esp.train
+esp.testb

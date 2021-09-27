@@ -1,0 +1,12 @@
+Run:
+To run evaluation script run: "python3 <path to score.py> results_combination_Final.txt"
+Output:
+
+processed 316248 tokens with 22355 phrases; found: 21121 phrases; correct: 13848.
+accuracy:  95.14%; precision:  65.57%; recall:  61.95%; FB1:  63.70
+              LOC: precision:  67.26%; recall:  65.82%; FB1:  66.53  5868
+             MISC: precision:  22.19%; recall:  18.47%; FB1:  20.16  2091
+              ORG: precision:  66.07%; recall:  59.72%; FB1:  62.73  7945
+              PER: precision:  80.28%; recall:  82.83%; FB1:  81.53  5217
+
+NOTE: Here FB1 corresponds to F1 score. Overall accuracy is mentioned in 2nd line. F1, Precision, Recall are given for- overall, LOC, MISC, ORG, PER. Here we achieve an F1 score of 63.70%
